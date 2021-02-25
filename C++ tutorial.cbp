@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="C++ tutorial" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/C++ tutorial" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="./" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/C++ tutorial" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="arithmeticoperator.cpp" />
+		<Unit filename="array.cpp" />
+		<Unit filename="arrow function/arrow.cpp" />
+		<Unit filename="arrow function/callingarrow.cpp" />
+		<Unit filename="arrow function/simple.h">
+			<Option compile="1" />
+			<Option link="1" />
+		</Unit>
+		<Unit filename="class.cpp" />
+		<Unit filename="classtemplate.cpp" />
+		<Unit filename="classtypes.cpp" />
+		<Unit filename="composition.cpp" />
+		<Unit filename="composition.h" />
+		<Unit filename="const Function.cpp" />
+		<Unit filename="deconstructor.cpp" />
+		<Unit filename="dowhile.cpp" />
+		<Unit filename="exceptions.cpp" />
+		<Unit filename="file.cpp" />
+		<Unit filename="forloop.cpp" />
+		<Unit filename="friend.cpp" />
+		<Unit filename="functionoverloading.cpp" />
+		<Unit filename="functions.cpp" />
+		<Unit filename="functiontemplate.cpp" />
+		<Unit filename="ifelse.cpp" />
+		<Unit filename="inheritance.cpp" />
+		<Unit filename="logicaloperator.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="member_initialize.cpp" />
+		<Unit filename="member_initialize.h" />
+		<Unit filename="operator_overloading.cpp" />
+		<Unit filename="operator_overloading.h" />
+		<Unit filename="polymorphism.cpp" />
+		<Unit filename="postpre.cpp" />
+		<Unit filename="random.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="recursion.cpp" />
+		<Unit filename="scoperesolution.cpp" />
+		<Unit filename="sizeof.cpp" />
+		<Unit filename="stringfunction.cpp" />
+		<Unit filename="switch.cpp" />
+		<Unit filename="variables.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="virtualAndpurevirtual.cpp" />
+		<Unit filename="while.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
